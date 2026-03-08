@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.venv/
+venv/
+*env/
+
+# Node
+node_modules/
+
+# OpenClaw / workspace local env
+/tmp/
+*.log
+
+# Large/local generated environments
+discord-drive-env/
+
+# Secrets / credentials
+*secret*
+*credential*
+*.pem
+*.key
+
+# API keys / OAuth client files (keep out of git)
+google_client_secret*.json
